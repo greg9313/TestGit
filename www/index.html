@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>kjgbeariongv</title>
+		<!-- La balise link permet de lié la feuille de style CSS à la page Web -->
+		<link rel="stylesheet" href="../style/style.css" />
+    </head>
+
+    <body>
+
+		<!-- Titres et sous-titres -->	
+	
+		<!-- Commentaire : La balise <body> est le corp de la page, c est ici qu on passe les paramètres qui vont s'affciher -->
+		<!-- Les commentaires ne s'affichent pas sur la page Web -->
+		
+		<!-- Les balises h1 à h6 servent de titre ou de sous-titre pour la page web -->
+		<h1> Titre très important</h1>
+		<h2> Titre important </h2>
+		<h3> Sous-titre</h3>
+		<h4> Titre moins important</h4>
+		<h5> Titre pas important </h5>
+		<h6> Titre vraiment pas important...</h6>
+		_________________________________________________________________________________________________________________________________</br>
+		
+		<!--Texte et paragraphes -->
+		
+		<!-- Les balises <p> servent a créer des paragraphes afin de créer un bloc de texte -->
+		<p> Lorem ipsum dolor sit amet, enim porttitor vel mattis, vehicula nibh massa a primis, elit vulputate suscipit dolor pharetra eget, dui eget aliquam ac viverra pretium consequat. Egestas interdum luctus eu convallis eleifend lacus, elit hac ornare id fermentum etiam, mollis porta orci vehicula, accumsan placerat feugiat metus massa faucibus, ut ante eu velit. Donec nam, dictum vivamus consequat lectus fames, metus nam vel consectetuer pede, id eu nullam nisl ullamcorper magna praesent.</p>
+		
+		<!-- Un texte hors balise p s'affiche quand même, il ne sera pas dans le paragraphe du texte précédent -->
+		Si le texte n'est pas dans une balise p, il faut utiliser la balise  < /br ><br/> afin de faire un saut de ligne.
+		
+		<!-- que la balise p soit utilisée ou non, le texte reste dans le même format, cependant, il est conseillé d'utilisé la balise p afin de structuré son texte et de pouvoir lui passé des paramètres de style spécifique -->
+		<p id="test"> La balise < /br > peut aussi être utilisée dans un paragraphe  </br> pour faire un saut de ligne</p>
+		
+		
+		
+		_________________________________________________________________________________________________________________________________</br><br/>
+		
+		<!-- Listes -->
+		
+		<!-- Les balises UL et OL permettent de créer des listes, UL crée une liste non ordonée (liste à puce) et OL crée une liste ordonée (liste chifrée) -->
+		Destinations à choisir : 
+		<ul>
+			<li>Tokyo</li>
+			<li>Honolulu</li>
+			<li>Budapeste</li>
+		</ul>
+		Étapes du processus : 
+		<ol>
+			<li>Allumer la machine</li>
+			<li>Installer le composant manquant</li>
+			<li>Configurer le nouveau composant</li>
+		</ol>
+		
+		
+		_________________________________________________________________________________________________________________________________</br><br/>
+		
+		<!-- Liens -->
+		
+		<!-- la balise a permet de créer des liens internes ou externes, il faut ensuite passé la source dans le paramètres href, il est aussi possible de créer un lien de contact pour l'envoi d'un mail, ou encore, pour télécharger un fichier -->
+		
+		<a href="index.html" target="_blank">Accueil de mon site</a>   -   <a href="menumodele.html">Menu modèle</a>   -   <a href="http://www.google.com">recherche Google</a>   -   <a href="mailto:adressebidon@gmail.com">Contact</a>   -   <a href="../img/belle.zip">Télécharger une belle image</a>
+		
+		
+		_________________________________________________________________________________________________________________________________</br><br/>
+		
+		<!-- Images -->
+		
+		<!-- la balise <img/> permet d'intégrer une image au site, il faut ensuite passé la source de l'image dans le paramètre src. Il est possible de définir directement la taille de l'image si elle est trop grande -->
+		
+		<img src="../img/cairn.jpg" width="25%"/>
+		
+		
+		_________________________________________________________________________________________________________________________________</br><br/>
+		
+		<!-- Tableaux -->
+		
+		<!-- la balise table permet de créer un tableau, il vient ensuite la balise TR qui indique les lignes (table row) puis la balise TD qui indique les cellules (Table Data) -->
+		
+		<table>
+			<tr>
+				<td id="noborderleft">
+					X
+				</td>
+				<td>
+					O
+				</td>
+				<td>
+					X
+				</td>
+			</tr>
+			<tr>
+				<td id="noborderleft">
+					X
+				</td>
+				<td>
+					O
+				</td>
+				<td>
+					O
+				</td>
+			</tr>
+			<tr>
+				<td id="noborderleft" class="noborderbottom">
+					X
+				</td>
+				<td class="noborderbottom">
+					X
+				</td>
+				<td class="noborderbottom">
+					O
+				</td>
+			</tr>
+		</table>
+		 
+    </body>
+</html>

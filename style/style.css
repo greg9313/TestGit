@@ -1,0 +1,20 @@
+p{
+	color: #f00
+}
+
+td{
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+
+#noborderleft{
+	border-left: none;
+}
+
+.noborderbottom{
+	border-bottom: none;
+}
+
+#test{
+	color: #487;
+}
